@@ -1,12 +1,13 @@
 {
   "name": "Finance Suite",
   "short_name": "Finance",
-  "description": "Local-first finance tracker — Wallet & RentBook",
+  "description": "Local-first personal finance — Wallet & RentBook",
   "start_url": "/",
+  "scope": "/",
   "display": "fullscreen",
-  "background_color": "#07070d",
-  "theme_color": "#07070d",
   "orientation": "portrait",
+  "background_color": "#080810",
+  "theme_color": "#080810",
   "icons": [
     {
       "src": "icon.svg",
@@ -14,5 +15,7 @@
       "type": "image/svg+xml",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "categories": ["finance", "productivity"],
+  "lang": "en-IN"
 }
